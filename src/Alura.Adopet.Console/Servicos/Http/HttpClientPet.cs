@@ -1,9 +1,10 @@
 ﻿using System.Net.Http.Json;
 using Alura.Adopet.Console.Modelos;
+using Alura.Adopet.Console.Servicos.Arquivos.Abstracoes;
 
 namespace Alura.Adopet.Console.Servicos.Http;
 
-public class HttpClientPet
+public class HttpClientPet: IApiService
 {
     private HttpClient client;
 
